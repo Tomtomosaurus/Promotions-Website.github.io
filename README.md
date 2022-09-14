@@ -1,4 +1,4 @@
-# Promotions-Website.github.io
+# Promotions Website.github.io
 Websites Project
 
 ## Reminders
