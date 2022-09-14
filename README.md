@@ -15,3 +15,5 @@ Websites Project
 - [ ] Add more items from the paper
 
 ---
+
+>__Note__
