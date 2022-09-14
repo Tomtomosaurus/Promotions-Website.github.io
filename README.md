@@ -11,8 +11,9 @@ Websites Project
 ---
 
 ### To do list
-- [x] <span style="color: green"> Create a To-Do list </span>
-- [ ] Add more items from the paper
+```diff
+- [x] <del> + Create a To-Do list </del>
+- [ ] - Add more items from the paper
 
 
 ---
