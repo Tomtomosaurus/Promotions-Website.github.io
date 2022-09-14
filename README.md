@@ -11,9 +11,7 @@ Websites Project
 ---
 
 ### To do list
-```diff
-- [x] <del> + Create a To-Do list </del>
-- [ ] - Add more items from the paper
-
+- [x] <del> Create a To-Do list </del>
+- [ ] Add more items from the paper
 
 ---
