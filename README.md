@@ -5,6 +5,8 @@ Websites Project
 - None yet
 - [ ] this is an example checkbox
 - [x] this is an example of a checked box
+- <del> [x] this is a crossed out item </del>
+
 ---
 
 ### To do list
