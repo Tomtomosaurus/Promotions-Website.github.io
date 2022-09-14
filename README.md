@@ -2,13 +2,11 @@
 Websites Project
 
 ## Reminders
+- None yet
+
 
 ### To do list
+- Make a To-Do list
+- Add more items from the paper
 
-#### 4 hash
 
-##### 5 hash
-
-###### 6 hash
-
-# # # # # # # # # # 10 space hash
