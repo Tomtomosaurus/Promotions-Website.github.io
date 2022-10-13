@@ -5,32 +5,29 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+            background-size: 100% 100%;
         }
         h1 {
             text-align: center;
             font-size: 2.5vw;
-            color: purple;
+            color: dodgerblue;
             font-family: monospace
         }
         h2 {
             font-size: 1vw;
-            color: purple;
+            color: dodgerblue;
             text-align: center;
         }
         div {
              border: 3px solid black;
-             background-color: white;
+             background-color: rgba(137, 43, 226, 0.632);
         }
-        .header {
-            float: middle;
-            text-align-last: center;
-            width: 50%;
+        .flex-container > div {
+            display: flex;
+            justify-items: center;
             text-align: center;
+            border: 3px solid black;
         }
-        header {
-            text-align: center
-        }
-
     </style>
     <header>
         <div>
@@ -43,15 +40,13 @@
                     Submit Your Game!
                 </a>
             </h2>
-            </header>
         </div>
-        <div>
-            <header class="header">
-                <h1>
-                    <p style="text-align:center">
-                        GAMES AND WEBSITES BY STUDENTS FROM QEHS
-                    </p>
-                </h1>
-            </header>
-        </div> 
+    </header>
+    <header>
+        <h1>
+            <div>
+                GAMES AND WEBSITES BY STUDENTS FROM QEHS
+            </div>
+        </h1>
+    </header>
 </html>
