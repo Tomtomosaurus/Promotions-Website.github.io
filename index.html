@@ -18,15 +18,44 @@
             color: dodgerblue;
             text-align: center;
         }
+        h3 {
+            font-size: 2vw;
+            color: blue;
+            text-align: center;
+        }
+        h4 {
+            font-size: 1.5vw;
+            color: blue;
+            text-align: center;
+        }
         div {
              border: 3px solid black;
              background-color: rgba(137, 43, 226, 0.632);
         }
-        .flex-container > div {
+        .flex-container {
             display: flex;
-            justify-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .flex-container > div {
+            width: 50%;
             text-align: center;
             border: 3px solid black;
+        }
+        .flex-container > section {
+            width: 25%;
+            text-align: center;
+            border: 3px solid black;
+            margin: 1%;
+        }
+        footer {
+            left:0;
+            bottom:0;
+            width:100%;
+            text-align:center;
+            background-color: black;
+            font-size:1.5vw;
+            color: white;
         }
     </style>
     <header>
@@ -42,11 +71,27 @@
             </h2>
         </div>
     </header>
-    <header>
+    <header class="flex-container">
         <h1>
             <div>
                 GAMES AND WEBSITES BY STUDENTS FROM QEHS
             </div>
         </h1>
     </header>
+    <main class="flex-container">
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+        <section><img src="add image url here"> <h3>Game/Website Name Here</h3><h4>By: Game/Website Author</h4></section>
+    </main>
+    <footer>
+        <p>
+            <a href="childPages/AboutMe" target="_blank">About Me (Creator of This Website)</a>
+        </p>
+    </footer>
 </html>
