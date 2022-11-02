@@ -49,6 +49,13 @@ div {
     margin: 1%;
     background-color: rgba(255, 255, 0, 0.503);
 }
+.flex-container > h3 {
+    width: 25%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 1%;
+    background-color: rgba(255, 255, 0, 0.503);
+}
 footer {
     position: fixed;
     left:0;
